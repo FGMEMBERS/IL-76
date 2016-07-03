@@ -296,9 +296,14 @@
         <control-speed control="EXTEND" transition-time="5"/>
   </gear>
 
-  <tank x="3" y=" 10.361" z="-1.261" capacity="3000"/>
-  <tank x="3" y="-10.361" z="-1.261" capacity="3000"/>
-
+  <!-- Total : 187044 lbs in 6 tanks - 31174 each -->
+  <tank x="5" y="  4.361" z="-1.061" capacity="31714"/>
+  <tank x="4" y="  7.361" z="-1.261" capacity="31714"/>
+  <tank x="3" y=" 10.361" z="-1.261" capacity="31714"/>
+  <tank x="3" y="-10.361" z="-1.261" capacity="31174"/>
+  <tank x="4" y=" -7.361" z="-1.261" capacity="31174"/>
+  <tank x="5" y=" -4.361" z="-1.261" capacity="31174"/>
+  
   <!-- Mass distribution -->
   <ballast x="26" y="0" z="-4" mass="40850"/>
 
